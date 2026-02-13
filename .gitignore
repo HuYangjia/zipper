@@ -1,0 +1,24 @@
+# 1) Ignore experiment notes / logs
+**/*.txt
+**/*.tsv
+
+# 2) Python caches / compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/*.so
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+
+
+
+!**/CMakeLists.txt
